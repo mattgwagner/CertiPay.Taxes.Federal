@@ -26,7 +26,7 @@ namespace CertiPay.Taxes.Federal
             {
                 return new[]
                 {
-                    new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.Single, Minimum = 0, Maximum = 2250, Base = 0, Percentage = 0},
+                    new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.Single, Minimum = 0, Maximum = 2300, Base = 0, Percentage = 0},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.Single, Minimum = 2300, Maximum = 11625, Base = 0, Percentage = 10},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.Single, Minimum = 11625, Maximum = 40250, Base = 932.50m, Percentage = 15},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.Single, Minimum = 40250, Maximum = 94200, Base = 5226.25m, Percentage = 25},
@@ -53,7 +53,7 @@ namespace CertiPay.Taxes.Federal
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.WidowerWithDependentChild, Minimum = 425350, Maximum = 479350, Base = 112728m, Percentage = 35},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.WidowerWithDependentChild, Minimum = 479350, Maximum = decimal.MaxValue, Base = 131628m, Percentage = 39.6m},
 
-                    new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 0, Maximum = 2250, Base = 0, Percentage = 0},
+                    new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 0, Maximum = 2300, Base = 0, Percentage = 0},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 2300, Maximum = 11625, Base = 0, Percentage = 10},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 11625, Maximum = 40250, Base = 932.50m, Percentage = 15},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 40250, Maximum = 94200, Base = 5226.25m, Percentage = 25},
@@ -62,7 +62,7 @@ namespace CertiPay.Taxes.Federal
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 419000, Maximum = 420700, Base = 120910.25m, Percentage = 35},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.MarriedFilingSeparately, Minimum = 420700, Maximum = decimal.MaxValue, Base = 121505.25m, Percentage = 39.6m},
 
-                    new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.HeadOfHousehold, Minimum = 0, Maximum = 2250, Base = 0, Percentage = 0},
+                    new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.HeadOfHousehold, Minimum = 0, Maximum = 2300, Base = 0, Percentage = 0},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.HeadOfHousehold, Minimum = 2300, Maximum = 11625, Base = 0, Percentage = 10},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.HeadOfHousehold, Minimum = 11625, Maximum = 40250, Base = 932.50m, Percentage = 15},
                     new TaxTableEntry{ TaxFilingStatus = EmployeeTaxFilingStatus.HeadOfHousehold, Minimum = 40250, Maximum = 94200, Base = 5226.25m, Percentage = 25},
