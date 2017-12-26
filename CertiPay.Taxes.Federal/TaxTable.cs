@@ -21,7 +21,8 @@ namespace CertiPay.Taxes.Federal
                     new TaxTable2014(),
                     new TaxTable2015(),
                     new TaxTable2016(),
-                    new TaxTable2017()
+                    new TaxTable2017(),
+                    new TaxTable2018(),
                 };
             }
         }
