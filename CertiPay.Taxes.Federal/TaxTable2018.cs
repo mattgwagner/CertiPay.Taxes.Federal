@@ -8,7 +8,7 @@ namespace CertiPay.Taxes.Federal
     {
         public int Year { get { return 2018; } }
 
-        public Decimal SocialSecurityWageBase { get { return 127200; } }
+        public Decimal SocialSecurityWageBase { get { return 128400; } }
 
         public Decimal FICA_EmployeePercentage { get { return 6.2m; } }
 
